@@ -1,4 +1,5 @@
-Summary:	ZendStudio
+Summary:	ZendStudio - server management tools for PHP-based Web serwers
+Summary(pl):	ZendStudio - narzêdzia do zarz±dzania serwerami WWW opartymi o PHP
 Name:		ZendStudio
 Version:	5.2.0
 Release:	0.1
@@ -6,6 +7,7 @@ License:	Zend Studio License
 Group:		Applications
 Source0:	ZendStudio-5_2_0.tar.gz
 # NoSource0-md5:	88f75c1d0576d8f3ec11386471520058
+NoSource:	0
 URL:		http://www.zend.com/products/zend_studio
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -19,6 +21,12 @@ Includes server management tools that manage PHP based Web servers.
 This module makes installation and integration seamless while
 simplifying PHP and remote debugging configurations and security
 maintenance.
+
+%description -l pl
+Ten pakiet zawiera narzêdzia do zarz±dzania serwerami WWW opartymi o
+PHP. Modu³ pozwala na przezroczyst± instalacjê i integracjê,
+jednocze¶nie upraszczaj±c konfigurowanie PHP i zdaln± diagnostykê oraz
+utrzymywanie bezpieczeñstwa.
 
 %prep
 %setup -qc
