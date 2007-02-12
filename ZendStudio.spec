@@ -1,5 +1,5 @@
 Summary:	ZendStudio - server management tools for PHP-based Web serwers
-Summary(pl.UTF-8):   ZendStudio - narzędzia do zarządzania serwerami WWW opartymi o PHP
+Summary(pl.UTF-8):	ZendStudio - narzędzia do zarządzania serwerami WWW opartymi o PHP
 Name:		ZendStudio
 Version:	5.2.0
 Release:	0.1
