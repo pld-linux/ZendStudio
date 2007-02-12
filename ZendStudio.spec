@@ -1,5 +1,5 @@
 Summary:	ZendStudio - server management tools for PHP-based Web serwers
-Summary(pl):	ZendStudio - narzêdzia do zarz±dzania serwerami WWW opartymi o PHP
+Summary(pl.UTF-8):   ZendStudio - narzÄ™dzia do zarzÄ…dzania serwerami WWW opartymi o PHP
 Name:		ZendStudio
 Version:	5.2.0
 Release:	0.1
@@ -22,11 +22,11 @@ This module makes installation and integration seamless while
 simplifying PHP and remote debugging configurations and security
 maintenance.
 
-%description -l pl
-Ten pakiet zawiera narzêdzia do zarz±dzania serwerami WWW opartymi o
-PHP. Modu³ pozwala na przezroczyst± instalacjê i integracjê,
-jednocze¶nie upraszczaj±c konfigurowanie PHP i zdaln± diagnostykê oraz
-utrzymywanie bezpieczeñstwa.
+%description -l pl.UTF-8
+Ten pakiet zawiera narzÄ™dzia do zarzÄ…dzania serwerami WWW opartymi o
+PHP. ModuÅ‚ pozwala na przezroczystÄ… instalacjÄ™ i integracjÄ™,
+jednoczeÅ›nie upraszczajÄ…c konfigurowanie PHP i zdalnÄ… diagnostykÄ™ oraz
+utrzymywanie bezpieczeÅ„stwa.
 
 %prep
 %setup -qc
