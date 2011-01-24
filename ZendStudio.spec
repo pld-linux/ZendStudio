@@ -15,6 +15,7 @@ Source1:	http://downloads.zend.com/studio-eclipse/%{version}/%{name}-%{version}-
 # NoSource1-md5:	b4bd2f7a7b351db59ebb218653a5cb76
 NoSource:	1
 URL:		http://www.zend.com/products/studio/
+BuildRequires:	rpm-pythonprov
 ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
