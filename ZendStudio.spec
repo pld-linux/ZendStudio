@@ -19,6 +19,10 @@ BuildRequires:	rpm-pythonprov
 ExclusiveArch:	%{ix86} %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+# no Provides for privately packaged libs
+%define		_noautoprov		libpng12.so.0
+%define		_noautoreq		%{_noautoprov}
+
 %define		_appdir		%{_libdir}/%{name}
 
 %description
